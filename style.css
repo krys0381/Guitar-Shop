@@ -1,0 +1,88 @@
+/*
+Theme Name: WEN Commerce Child
+Theme URI: https://wenthemes.com/item/wordpress-themes/wen-commerce/
+Template: wen-commerce
+Author: WEN Themes
+Author URI: https://wenthemes.com/
+Description: WEN Commerce is a clean, chic, and modern eCommerce WordPress theme. It is ideal for all online shops and businesses with an online portal to sell their merchandise. With WEN Commerce, you can display all your products effortlessly in different sections according to the exposure they require. The theme is fully responsive and your online shop will look absolutely flawless across all screen sizes. With the complete responsiveness and attractive eCommerce design, WEN Commerce also comes with numerous features and sections as well. For instance, WooCommerce Ready, Brands, Featured Content, Featured Slider, Hero Content, Services, Promotional Headline, WooCommerce Sections, and more. With all of these fully customizable sections and more, you can master the eCommerce industry and attract more visitors. Moreover, WEN Commerce is Gutenberg compatible, cross-browser compatible, and translation ready. WEN Commerce is the best choice for eCommerce websites! Official Support Forum: https://themepalace.com/support-forum/ Full Demo: https://wenthemes.com/theme-demos/?demo=wen-commerce
+Tags: one-column,two-columns,right-sidebar,custom-background,custom-colors,custom-header,custom-menu,custom-logo,editor-style,featured-image-header,featured-images,flexible-header,footer-widgets,rtl-language-support,sticky-post,theme-options,threaded-comments,translation-ready,block-styles,wide-blocks,e-commerce,photography,portfolio
+Version: 1.0.3.1665173652
+Updated: 2022-10-07 20:14:12
+
+*/
+
+/* @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap'); */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+.tagged_as {
+    display: none!important;
+}
+
+.woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-4.images {
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+
+#content > div {
+    padding: 21px 30px!important;
+}
+
+#site-header-cart {
+    padding: 0!important;
+}
+
+/* Free Shipping Notice */
+
+#free-shipping-notice{
+    width: 100%;
+    background-color: #fa6742;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    margin-bottom: 21px;
+}
+
+#free-shipping-notice > p{
+    margin: 0;
+    padding: 0;
+}
+
+/* Footer */
+
+#menu-footer-navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#colophon > aside > div > div.widget-column.footer-widget-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sidebar*/
+
+.home #secondary {
+    display: none;
+}
+
+/* Carousel */
+
+#carouselExampleIndicators > div.carousel-inner > div.carousel-item.active > img {
+    object-fit: cover;
+}
+
+/* Media quaries */
